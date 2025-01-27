@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.logo{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    background-color: #333;
+    color: white;
+    font-size: larger;
+
+}
+
+.logo img{
+width: 10%;
+aspect-ratio: 4/3
+margin-right: 10px;
+}
+
+
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+z-index: 999;  
+}
+
+.header a{
+    text-decoration:none;
+    font-size: larger;
+    color: white;
+    text-align: center;
+    padding: 0px 0px 0px 20px;
+    display:inline-table;
+    transition: ease-out 200ms;
+}
+
+.header a:hover{
+    color: #28fa60;
+    
+}
+
+
+
+
+/* pagecard */
+
+
+
+
+.players h2{
+padding: 3%;
+font-size: large;
+font-style: italic;
+
+
+}
+
+.players img{
+    align-items: center;
+    width: 15%;
+    border-radius: 5%;
+    padding-inline-end: 3.5%;
+
+}
+
+.players img:hover{
+    
+}
